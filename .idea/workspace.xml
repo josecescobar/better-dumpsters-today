@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d61e744d-754b-418a-9456-4478fa2b9470" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discoverwv/charleston.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discoverwv/huntington.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discoverwv/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../discoverwv/morgantown.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;josecescobar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:josecescobar/ProfitMarginCalculatorGUI.git&quot;,
+    &quot;accountId&quot;: &quot;eff05688-bf1d-4099-a983-8f85f6f3c9dd&quot;
+  }
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2pGVhIrauip1aXxkvTJtbuxMaNS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Notification.DisplayName-DoNotAsk-GitHub Copilot": "GitHub Copilot",
+    "Notification.DoNotAsk-GitHub Copilot": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "22.11.0",
+    "javascript.nodejs.core.library.typings.version": "22.9.3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/Users/joseescobar/Library/Application Support/JetBrains/Rider2024.3/node/versions/22.11.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d61e744d-754b-418a-9456-4478fa2b9470" name="Changes" comment="" />
+      <created>1732392517027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732392517027</updated>
+      <workItem from="1732392518086" duration="1942000" />
+      <workItem from="1732396685096" duration="20391000" />
+      <workItem from="1732476472490" duration="8977000" />
+      <workItem from="1732651151749" duration="8544000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;Update index.html: Added hero section, navigation links, and footer for enhanced layout&quot;">
+      <option name="closed" value="true" />
+      <created>1732398843796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732398843796</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add JavaScript functionality for hamburger menu toggle and link interactions">
+      <option name="closed" value="true" />
+      <created>1732399252870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732399252870</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;Add styles for hero section, navigation, and footer to enhance layout and responsiveness&quot;">
+      <option name="closed" value="true" />
+      <created>1732399634695</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732399634695</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;Add .gitignore to exclude IDE configuration files and workspace settings&quot;">
+      <option name="closed" value="true" />
+      <created>1732399790064</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732399790064</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;Update project card layout to reduce redundancy and improve accessibility&quot;">
+      <option name="closed" value="true" />
+      <created>1732410469042</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732410469042</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;Add styling for skills section and resize skill icons for better consistency&quot;">
+      <option name="closed" value="true" />
+      <created>1732410488304</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732410488304</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;Add skill icons for portfolio skills section&quot;">
+      <option name="closed" value="true" />
+      <created>1732411860250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732411860250</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated index.html to include Bitmoji images in the hero, about, and skills sections, enhancing personal branding and visual appeal.">
+      <option name="closed" value="true" />
+      <created>1732649332736</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732649332736</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added styling for Bitmoji images in hero, about, and skills sections to improve alignment, sizing, and visual consistency across the website.">
+      <option name="closed" value="true" />
+      <created>1732649345063</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732649345063</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added Bitmoji images for hero, about, and skills sections to enhance personal branding and website interactivity.">
+      <option name="closed" value="true" />
+      <created>1732649356413</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732649356413</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="&quot;Update index.html: Added hero section, navigation links, and footer for enhanced layout&quot;" />
+    <MESSAGE value="Add JavaScript functionality for hamburger menu toggle and link interactions" />
+    <MESSAGE value="&quot;Add styles for hero section, navigation, and footer to enhance layout and responsiveness&quot;" />
+    <MESSAGE value="&quot;Add .gitignore to exclude IDE configuration files and workspace settings&quot;" />
+    <MESSAGE value="&quot;Update project card layout to reduce redundancy and improve accessibility&quot;" />
+    <MESSAGE value="&quot;Add styling for skills section and resize skill icons for better consistency&quot;" />
+    <MESSAGE value="&quot;Add skill icons for portfolio skills section&quot;" />
+    <MESSAGE value="Updated index.html to include Bitmoji images in the hero, about, and skills sections, enhancing personal branding and visual appeal." />
+    <MESSAGE value="Added styling for Bitmoji images in hero, about, and skills sections to improve alignment, sizing, and visual consistency across the website." />
+    <MESSAGE value="Added Bitmoji images for hero, about, and skills sections to enhance personal branding and website interactivity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Bitmoji images for hero, about, and skills sections to enhance personal branding and website interactivity." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
