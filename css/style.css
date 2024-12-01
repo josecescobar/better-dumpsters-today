@@ -2,15 +2,16 @@
 
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated for a more modern look */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    line-height: 1.6;
+    line-height: 1.7; /* Increased for better readability */
     background-color: #f4f4f4;
     color: #333;
 }
 
+/* Header Section */
 header {
     background-color: #000;
     color: #fff;
@@ -18,6 +19,24 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
 }
 
 header nav a {
@@ -31,11 +50,19 @@ header nav a:hover {
     text-decoration: underline;
 }
 
+/* Hero Section */
 .hero {
     background-color: #0044cc;
     color: #fff;
     padding: 100px 20px;
     text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .cta-button {
@@ -53,7 +80,7 @@ header nav a:hover {
 }
 
 /* Services Section */
-.services-section {
+#services {
     padding: 50px 20px;
     background-color: #fff;
 }
@@ -63,29 +90,98 @@ header nav a:hover {
     text-align: center;
 }
 
-.service img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-}
-
 .service h3 {
     color: #0044cc;
+    margin-bottom: 10px;
+}
+
+.service p {
+    margin-bottom: 10px;
+}
+
+.learn-more {
+    color: #0044cc;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+/* Testimonials */
+#testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#testimonials blockquote {
+    font-style: italic;
+    background: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#testimonials cite {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* Contact Section */
-.contact-section {
+#contact {
     padding: 50px 20px;
     background-color: #f2f2f2;
 }
 
-form label {
+#contact form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-form input, form select {
+#contact form input,
+#contact form select {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -93,7 +189,7 @@ form input, form select {
     border-radius: 5px;
 }
 
-form button {
+#contact form button {
     background-color: #0044cc;
     color: #fff;
     padding: 10px 20px;
@@ -102,8 +198,14 @@ form button {
     transition: background-color 0.3s;
 }
 
-form button:hover {
+#contact form button:hover {
     background-color: #003399;
+}
+
+/* 404 Page */
+.not-found {
+    text-align: center;
+    padding: 100px 20px;
 }
 
 /* Footer */
@@ -131,7 +233,30 @@ footer a:hover {
         text-align: center;
     }
 
+    .menu-toggle {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    header nav.active {
+        display: flex;
+    }
+
+    header nav a {
+        margin: 10px 0;
+    }
+
     .hero {
         padding: 50px 20px;
+    }
+
+    .modal-content {
+        width: 90%;
     }
 }

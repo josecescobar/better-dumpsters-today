@@ -5,52 +5,88 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Better Dumpsters Today</title>
+  <meta name="description" content="Better Dumpsters Today provides dumpster rentals, excavation, and hauling services. Get your free quote now!">
+  <meta name="keywords" content="dumpster rental, excavation, land clearing, dump truck, hauling service, Glen Dale MD">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-<!-- Header -->
+
+<!-- Updated Header with New Logo -->
 <header>
   <div class="logo">
-    <img src="images/logo.png" alt="Better Dumpsters Today Logo">
+    <img src="images/updated-logo.png" alt="Better Dumpsters Today Logo">
   </div>
+  <button class="menu-toggle">☰</button>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="services.html">Services & Pricing</a>
-    <a href="contact.html">Contact & Scheduling</a>
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="services.html" class="nav-link">Services & Pricing</a>
+    <a href="contact.html" class="nav-link">Contact & Scheduling</a>
   </nav>
 </header>
 
 <!-- Hero Section -->
-<section id="home" class="hero">
-  <h1>Your Trusted Partner for Dumpster Rentals & Hauling Services</h1>
-  <button onclick="location.href='contact.html'" class="cta-button">Get a Free Quote</button>
+<section id="home" class="hero" style="background-image: url('images/hero-bg.jpg');">
+  <div class="hero-content">
+    <h1>Your Trusted Partner for Dumpster Rentals & Hauling Services</h1>
+    <p>Whether residential or commercial, we handle all your waste management needs.</p>
+    <button onclick="document.getElementById('quoteForm').style.display='block'" class="cta-button">Get a Free Quote</button>
+  </div>
+  
+  <!-- Quote Form Modal -->
+  <div id="quoteForm" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="document.getElementById('quoteForm').style.display='none'">×</span>
+      <h2>Request a Free Quote</h2>
+      <form id="quoteForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <textarea placeholder="Project Details" required></textarea>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </div>
+  </div>
 </section>
 
 <!-- Services Overview -->
 <section id="services">
   <h2>Our Services</h2>
   <div class="service">
-    <h3>Dumpster Services</h3>
+    <h3><i class="fas fa-dumpster"></i> Dumpster Services</h3>
     <p>We provide dumpsters of various sizes for different types of waste, whether it be for residential or commercial projects.</p>
+    <a href="services.html#dumpster-services" class="learn-more">Learn More</a>
   </div>
   <div class="service">
-    <h3>Excavation & Land Clearing</h3>
+    <h3><i class="fas fa-tractor"></i> Excavation & Land Clearing</h3>
     <p>Our experienced team offers excavation and land clearing services, perfect for any construction project.</p>
+    <a href="services.html#excavation-services" class="learn-more">Learn More</a>
   </div>
   <div class="service">
-    <h3>Dump Trucking & Hauling</h3>
+    <h3><i class="fas fa-truck-moving"></i> Dump Trucking & Hauling</h3>
     <p>We offer dump trucking and hauling services for construction waste, residential cleanups, and more.</p>
+    <a href="services.html#hauling-services" class="learn-more">Learn More</a>
   </div>
+</section>
+
+<!-- Testimonials -->
+<section id="testimonials">
+  <h2>What Our Clients Say</h2>
+  <blockquote>
+    <p>"Efficient, on-time, and professional service. Highly recommended for any dumpster rental needs."</p>
+    <cite>- John Doe, Construction Manager</cite>
+  </blockquote>
 </section>
 
 <!-- Footer -->
 <footer>
-  <p>Better Dumpsters Today &copy; 2024. All Rights Reserved.</p>
+  <p>Better Dumpsters Today © 2024. All Rights Reserved.</p>
+  <p>Contact us: <a href="tel:240-960-6005">240-960-6005</a></p>
   <p>Follow us on <a href="#">Facebook</a>, <a href="#">Instagram</a></p>
 </footer>
 
 <!-- Scripts -->
+<script src="https://kit.fontawesome.com/yourkitcode.js" crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
 </body>
 
