@@ -27,4 +27,4 @@ To get a local copy up and running, follow these steps:
 1. **Clone the Repository**
    ```sh
    git clone https://github.com/josecescobar/better-dumpsters-today.git
-   cd better-dumpsters-today
+   cd better-dumpsters-today# better-dumpsters-today
