@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Better Dumpsters Today
 
 Welcome to the repository for the Better Dumpsters Today website. This project aims to provide an online presence for Better Dumpsters Today, offering services related to dumpster rentals, excavation, and hauling.
@@ -29,3 +30,6 @@ To get a local copy up and running, follow these steps:
    git clone https://github.com/josecescobar/better-dumpsters-today.git
    cd better-dumpsters-today# better-dumpsters-today
 # better-dumpsters-today
+=======
+# betterdumpsterstoday
+>>>>>>> 5b998664b64dc02a6f1c9fab47289f7519740a2f
