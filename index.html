@@ -4,90 +4,147 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Better Dumpsters Today</title>
-  <meta name="description" content="Better Dumpsters Today provides dumpster rentals, excavation, and hauling services. Get your free quote now!">
+  <title>Better Dumpsters Today - Dumpster Rentals, Excavation & Hauling Services in Glen Dale MD</title>
+  <meta name="description" content="Better Dumpsters Today offers dumpster rentals, excavation, and hauling services in Glen Dale, MD. Get a free quote for your waste management needs today!">
   <meta name="keywords" content="dumpster rental, excavation, land clearing, dump truck, hauling service, Glen Dale MD">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/yourkitcode.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.css">
 </head>
 
 <body>
 
-<!-- Updated Header with New Logo -->
+<!-- Header with Enhanced Navigation -->
 <header>
   <div class="logo">
-    <img src="images/updated-logo.png" alt="Better Dumpsters Today Logo">
+    <img src="img/dumpster-logo.jpg" alt="Better Dumpsters Today Logo for waste management services">
   </div>
-  <button class="menu-toggle">☰</button>
+  <button class="menu-toggle" aria-label="Toggle menu">☰</button>
   <nav>
-    <a href="index.html" class="nav-link">Home</a>
+    <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
     <a href="services.html" class="nav-link">Services & Pricing</a>
     <a href="contact.html" class="nav-link">Contact & Scheduling</a>
   </nav>
 </header>
 
-<!-- Hero Section -->
-<section id="home" class="hero" style="background-image: url('images/hero-bg.jpg');">
+<!-- Hero Section with Responsive Background -->
+<section id="home" class="hero" style="background-image: url('images/hero-bg.jpg'); background-size: cover; background-position: center;">
   <div class="hero-content">
     <h1>Your Trusted Partner for Dumpster Rentals & Hauling Services</h1>
     <p>Whether residential or commercial, we handle all your waste management needs.</p>
     <button onclick="document.getElementById('quoteForm').style.display='block'" class="cta-button">Get a Free Quote</button>
+    <a href="services.html" class="cta-button secondary">Learn More</a>
   </div>
-  
+
   <!-- Quote Form Modal -->
-  <div id="quoteForm" class="modal">
+  <div id="quoteForm" class="modal" role="dialog" aria-labelledby="quoteFormTitle" aria-hidden="true">
     <div class="modal-content">
-      <span class="close" onclick="document.getElementById('quoteForm').style.display='none'">×</span>
-      <h2>Request a Free Quote</h2>
-      <form id="quoteForm">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <input type="tel" placeholder="Phone Number" required>
-        <textarea placeholder="Project Details" required></textarea>
+      <span class="close" onclick="document.getElementById('quoteForm').style.display='none'" aria-label="Close">&times;</span>
+      <h2 id="quoteFormTitle">Request a Free Quote</h2>
+      <form id="quoteForm" aria-labelledby="quoteFormTitle">
+        <input type="text" placeholder="Your Name" required aria-label="Your Name">
+        <input type="email" placeholder="Your Email" required aria-label="Your Email">
+        <input type="tel" placeholder="Phone Number" required aria-label="Phone Number">
+        <textarea placeholder="Project Details" required aria-label="Project Details"></textarea>
         <button type="submit" class="submit-button">Submit</button>
       </form>
     </div>
   </div>
 </section>
 
-<!-- Services Overview -->
+<!-- Services Overview with Icons -->
 <section id="services">
   <h2>Our Services</h2>
   <div class="service">
     <h3><i class="fas fa-dumpster"></i> Dumpster Services</h3>
     <p>We provide dumpsters of various sizes for different types of waste, whether it be for residential or commercial projects.</p>
+
+    <!-- All the images added under Dumpster Services -->
+    <div class="equipment-images">
+      <img src="img/dumpster2.jpg" alt="Dumpster service image 1" class="service-image">
+      <img src="img/dumpster3.jpg" alt="Dumpster service image 2" class="service-image">
+    </div>
+
     <a href="services.html#dumpster-services" class="learn-more">Learn More</a>
   </div>
   <div class="service">
     <h3><i class="fas fa-tractor"></i> Excavation & Land Clearing</h3>
     <p>Our experienced team offers excavation and land clearing services, perfect for any construction project.</p>
+    <div class="equipment-images">
+      <img src="img/IMG_3371.jpg" alt="Excavation equipment" class="service-image">
+      <img src="img/IMG_3370.jpg" alt="Excavation equipment" class="service-image">
+    </div>
     <a href="services.html#excavation-services" class="learn-more">Learn More</a>
   </div>
   <div class="service">
     <h3><i class="fas fa-truck-moving"></i> Dump Trucking & Hauling</h3>
     <p>We offer dump trucking and hauling services for construction waste, residential cleanups, and more.</p>
+    <div class="truck-image">
+      <img src="img/IMG_3372.jpg" alt="Dump Truck" class="service-image">
+    </div>
     <a href="services.html#hauling-services" class="learn-more">Learn More</a>
   </div>
 </section>
 
-<!-- Testimonials -->
+<!-- Testimonials with Carousel -->
 <section id="testimonials">
   <h2>What Our Clients Say</h2>
-  <blockquote>
-    <p>"Efficient, on-time, and professional service. Highly recommended for any dumpster rental needs."</p>
-    <cite>- John Doe, Construction Manager</cite>
-  </blockquote>
+  <div class="testimonial-carousel swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <blockquote>
+          <p>"Efficient, on-time, and professional service. Highly recommended for any dumpster rental needs."</p>
+          <cite>- John Doe, Construction Manager</cite>
+        </blockquote>
+      </div>
+      <!-- Add more testimonials here -->
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
 </section>
 
-<!-- Footer -->
+<!-- Enhanced Footer -->
 <footer>
-  <p>Better Dumpsters Today © 2024. All Rights Reserved.</p>
-  <p>Contact us: <a href="tel:240-960-6005">240-960-6005</a></p>
-  <p>Follow us on <a href="#">Facebook</a>, <a href="#">Instagram</a></p>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <p><a href="tel:240-960-6005">240-960-6005</a></p>
+      <p><a href="mailto:info@betterdumpsters.com">info@betterdumpsters.com</a></p>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <p><a href="#" aria-label="Facebook">Facebook</a>, <a href="#" aria-label="Instagram">Instagram</a></p>
+    </div>
+  </div>
+  <p class="copyright">Better Dumpsters Today © 2024. All Rights Reserved.</p>
 </footer>
 
 <!-- Scripts -->
-<script src="https://kit.fontawesome.com/yourkitcode.js" crossorigin="anonymous"></script>
-<script src="js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.js" defer></script>
+<script src="js/app.js" defer></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Initialize testimonial carousel
+    new Swiper('.testimonial-carousel', {
+      loop: true,
+      autoplay: {
+        delay: 5000,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  });
+</script>
 </body>
 
 </html>
