@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d61e744d-754b-418a-9456-4478fa2b9470" name="Changes" comment="">
+    <list default="true" id="d61e744d-754b-418a-9456-4478fa2b9470" name="Changes" comment="- **Update Bootstrap files to v5.3.2**: Added and updated Bootstrap CSS and JS files to version 5.3.2, including utility classes, grid, and reboot styles, ensuring consistent and modern styling across the project.&#10;- **Add Bootstrap minified map files for better debugging**: Included `.map` files for Bootstrap v5.3.2 CSS and JS to enhance debugging and support during development.&#10;- **Improve RTL support for Bootstrap utilities**: Updated Bootstrap utility files to include better right-to-left language support by adding `bootstrap-utilities.rtl.min.css`.">
       <change afterPath="$PROJECT_DIR$/../../105-coding_resources" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BETTER DUMPSTERS TODAY/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebApplication3/.idea/.idea.WebApplication3/.idea/encodings.xml" afterDir="false" />
@@ -12,41 +12,24 @@
       <change afterPath="$PROJECT_DIR$/../WebApplication3/.idea/.idea.WebApplication3/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebApplication3/Testing /Properties/launchSettings.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebApplication3/Testing /appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebApplication3/Testing /obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebApplication3/Testing /obj/Debug/net6.0/Testing.AssemblyInfo.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebApplication3/Testing /obj/Debug/net6.0/Testing.GlobalUsings.g.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebApplication3/Testing /obj/Debug/net6.0/Testing.csproj.AssemblyReference.cache" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebApplication3/Testing /obj/Testing.csproj.nuget.g.targets" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebApplication3/Testing /obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../discoverwv/.idea/.idea.discoverwv.dir/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../discoverwv/untitled folder/img/cities /charleston/Charleston _ West Virginia, History, Population, Map, &amp; Facts _ Britannica copy.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../discoverwv/untitled folder/img/cities /huntington/HuntingtonWVDenisTagnetJrGetty1354262360RFC.avif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../discoverwv/untitled folder/main paige layout - wireframe.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/2e7b39fd-bb9d-422e-b578-76f673d25744/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/coding-responsive-rogue-pickings-03-finish-responsive/css/normalize.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (1) 2/src/index.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (1)/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (1)/src/App.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (1)/src/Note.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (2)/src/App.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (2)/src/Header.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (2)/src/Note.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (3)/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (3)/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (3)/src/App.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (3)/src/Note.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (4)/src/App.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (4)/src/Note.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (5)/src/Header.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/custom-l12-build-your-big-component-help-forked (5)/src/NotesList.js" afterDir="false" />
@@ -96,7 +79,6 @@
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/l5-write-a-functional-component-forked 2/src/data.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/l5-write-a-functional-component-forked 2/src/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/l5-write-a-functional-component-forked 2/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/l6-build-an-unordered-list-using-a-data-model-forked/src/App.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/l6-build-an-unordered-list-using-a-data-model-forked/src/Filters/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/l6-build-an-unordered-list-using-a-data-model-forked/src/styles.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/l6-render-our-data-model-forked 2/public/index.html" afterDir="false" />
@@ -115,7 +97,6 @@
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/l7-stateful-hotel-filters-forked/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/l7-stateful-hotel-filters-forked/src/Hotels/BestsellerFlag.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/l7-stateful-hotel-filters-forked/src/Hotels/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../code-sandbox/l7-the-perfect-team-forked/src/App.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/l8-build-your-name-tag-text-inputs-forked/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/l8-build-your-name-tag-text-inputs-forked/public/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/l8-build-your-name-tag-text-inputs-forked/src/NameTag.js" afterDir="false" />
@@ -217,21 +198,22 @@
       <change afterPath="$PROJECT_DIR$/../../recipe-cards" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../rogue-pickings.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../super-sticky-notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../super-sticky-notes/.idea/.idea.super-sticky-notes.dir/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../super-sticky-notes/.idea/.idea.super-sticky-notes.dir/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../super-sticky-notes/.idea/.idea.super-sticky-notes.dir/.idea/indexLayout.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../super-sticky-notes/.idea/.idea.super-sticky-notes.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../upcoming field trip registrations-03-main/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../upcoming field trip registrations-03-main/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../upcoming field trip registrations-03-main/js/script.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../upcoming field trip registrations-03-main/registrations.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../wgu/west-virginia-website-project.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BETTER DUMPSTERS TODAY/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BETTER DUMPSTERS TODAY/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BETTER DUMPSTERS TODAY/404.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../BETTER DUMPSTERS TODAY/contact.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../BETTER DUMPSTERS TODAY/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../BETTER DUMPSTERS TODAY/services.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,6 +243,15 @@
     &quot;accountId&quot;: &quot;eff05688-bf1d-4099-a983-8f85f6f3c9dd&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../WebApplication3/Testing /obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap-utilities.css.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.css.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.min.css.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/css/bootstrap.min.css.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/js/bootstrap.bundle.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../code-sandbox/bootstrap-5.3.2-dist/js/bootstrap.esm.min.js.map" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -273,29 +264,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Notification.DisplayName-DoNotAsk-GitHub Copilot": "GitHub Copilot",
-    "Notification.DoNotAsk-GitHub Copilot": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "22.11.0",
-    "javascript.nodejs.core.library.typings.version": "22.9.3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "/Users/joseescobar/Library/Application Support/JetBrains/Rider2024.3/node/versions/22.11.0/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-GitHub Copilot&quot;: &quot;GitHub Copilot&quot;,
+    &quot;Notification.DoNotAsk-GitHub Copilot&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.11.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.9.3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/Users/joseescobar/Library/Application Support/JetBrains/Rider2024.3/node/versions/22.11.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -311,6 +302,7 @@
       <workItem from="1733079031569" duration="2603000" />
       <workItem from="1733084841827" duration="1649000" />
       <workItem from="1733086852229" duration="8689000" />
+      <workItem from="1733167493274" duration="13224000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Update index.html: Added hero section, navigation links, and footer for enhanced layout&quot;">
       <option name="closed" value="true" />
@@ -408,7 +400,47 @@
       <option name="project" value="LOCAL" />
       <updated>1733086368173</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add .idea directories to .gitignore: Updated .gitignore to exclude .idea directories generated by IDEs to prevent committing local project settings.&#10;&#10;Add environment-specific and IDE settings to .gitignore: Enhanced .gitignore file to prevent unnecessary environment-specific and IDE-generated files (e.g., .idea) from being tracked in version control.">
+      <option name="closed" value="true" />
+      <created>1733184235505</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733184235505</updated>
+    </task>
+    <task id="LOCAL-00014" summary=" Modified AssemblyAttributes.cs to align with the .NET 6.0 framework for improved compatibility and debugging in the testing environment.">
+      <option name="closed" value="true" />
+      <created>1733184302136</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733184302136</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated 404.html to provide a more user-friendly error message and navigation suggestions, enhancing the user experience when encountering a broken link.">
+      <option name="closed" value="true" />
+      <created>1733184343181</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733184343181</updated>
+    </task>
+    <task id="LOCAL-00016" summary="- **Refactor App.js components for modularity**: Updated several instances of `App.js` across multiple feature branches to improve modularity, readability, and reusability of components.&#10;- **Add new features and optimize existing logic in App.js**: Implemented new UI components and optimized logic for better performance and maintainability.&#10;- **Enhance user interaction in App.js**: Added interactive features to `App.js`, such as form validation, improved modal functionality, and enhanced animations for a more engaging user experience.">
+      <option name="closed" value="true" />
+      <created>1733184432817</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733184432817</updated>
+    </task>
+    <task id="LOCAL-00017" summary="- **Update Bootstrap files to v5.3.2**: Added and updated Bootstrap CSS and JS files to version 5.3.2, including utility classes, grid, and reboot styles, ensuring consistent and modern styling across the project.&#10;- **Add Bootstrap minified map files for better debugging**: Included `.map` files for Bootstrap v5.3.2 CSS and JS to enhance debugging and support during development.&#10;- **Improve RTL support for Bootstrap utilities**: Updated Bootstrap utility files to include better right-to-left language support by adding `bootstrap-utilities.rtl.min.css`.">
+      <option name="closed" value="true" />
+      <created>1733184535703</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733184535703</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +475,12 @@
     <MESSAGE value="Update HTML files for Better Dumpsters Today&#10;&#10;- Updated 404, contact, index, and services pages for Better Dumpsters Today." />
     <MESSAGE value="Misc updates" />
     <MESSAGE value="# Commit the new file" />
-    <option name="LAST_COMMIT_MESSAGE" value="# Commit the new file" />
+    <MESSAGE value="Add .idea directories to .gitignore: Updated .gitignore to exclude .idea directories generated by IDEs to prevent committing local project settings.&#10;&#10;Add environment-specific and IDE settings to .gitignore: Enhanced .gitignore file to prevent unnecessary environment-specific and IDE-generated files (e.g., .idea) from being tracked in version control." />
+    <MESSAGE value=" Modified AssemblyAttributes.cs to align with the .NET 6.0 framework for improved compatibility and debugging in the testing environment." />
+    <MESSAGE value="Updated 404.html to provide a more user-friendly error message and navigation suggestions, enhancing the user experience when encountering a broken link." />
+    <MESSAGE value="- **Refactor App.js components for modularity**: Updated several instances of `App.js` across multiple feature branches to improve modularity, readability, and reusability of components.&#10;- **Add new features and optimize existing logic in App.js**: Implemented new UI components and optimized logic for better performance and maintainability.&#10;- **Enhance user interaction in App.js**: Added interactive features to `App.js`, such as form validation, improved modal functionality, and enhanced animations for a more engaging user experience." />
+    <MESSAGE value="- **Update Bootstrap files to v5.3.2**: Added and updated Bootstrap CSS and JS files to version 5.3.2, including utility classes, grid, and reboot styles, ensuring consistent and modern styling across the project.&#10;- **Add Bootstrap minified map files for better debugging**: Included `.map` files for Bootstrap v5.3.2 CSS and JS to enhance debugging and support during development.&#10;- **Improve RTL support for Bootstrap utilities**: Updated Bootstrap utility files to include better right-to-left language support by adding `bootstrap-utilities.rtl.min.css`." />
+    <option name="LAST_COMMIT_MESSAGE" value="- **Update Bootstrap files to v5.3.2**: Added and updated Bootstrap CSS and JS files to version 5.3.2, including utility classes, grid, and reboot styles, ensuring consistent and modern styling across the project.&#10;- **Add Bootstrap minified map files for better debugging**: Included `.map` files for Bootstrap v5.3.2 CSS and JS to enhance debugging and support during development.&#10;- **Improve RTL support for Bootstrap utilities**: Updated Bootstrap utility files to include better right-to-left language support by adding `bootstrap-utilities.rtl.min.css`." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
