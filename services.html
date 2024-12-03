@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services & Pricing - Better Dumpsters Today</title>
+    <meta name="description" content="Explore our comprehensive services including dumpster rentals, excavation, and hauling at Better Dumpsters Today. Get pricing details here!">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/yourkitcode.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<!-- Header -->
+<!-- Header with Enhanced Navigation -->
 <header>
     <div class="logo">
-        <img src="images/dumpster-logo.png" alt="Better Dumpsters Today Logo">
+        <img src="img/dumpster-logo.jpg" alt="Better Dumpsters Today Logo for waste management services">
     </div>
     <button class="menu-toggle">☰</button>
     <nav>
-        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
         <a href="services.html" class="nav-link">Services & Pricing</a>
         <a href="contact.html" class="nav-link">Contact & Scheduling</a>
     </nav>
@@ -25,43 +27,61 @@
 <!-- Services Section -->
 <section id="services">
     <h2>Our Services & Pricing</h2>
-    <div id="dumpster-services" class="service">
-        <h3>Dumpster Services</h3>
-        <p>We provide dumpsters of various sizes for different types of waste, whether it be for residential or commercial projects.</p>
-        <ul>
-            <li>40-Yard Dumpster: $900 (5 Tons included)</li>
-            <li>30-Yard Dumpster: $750 (4 Tons included)</li>
-            <li>25-Yard Dumpster: $700 (3 Tons included)</li>
-            <li>20-Yard Dumpster: $650 (2.5 Tons included)</li>
-            <!-- Add more details here -->
-        </ul>
-    </div>
-    <div id="excavation-services" class="service">
-        <h3>Excavation & Land Clearing</h3>
-        <p>Our experienced team offers excavation and land clearing services, perfect for any construction project.</p>
-        <ul>
-            <li>Bobcat: $2500/week, $450/day ($900/day with operator)</li>
-            <li>Mini Excavator: $2500/week, $450/day ($900/day with operator)</li>
-            <!-- Add more details here -->
-        </ul>
-    </div>
-    <div id="hauling-services" class="service">
-        <h3>Dump Trucking & Hauling</h3>
-        <p>We offer dump trucking and hauling services for construction waste, residential cleanups, and more.</p>
-        <ul>
-            <li>$90/hr, Plus 1 Hr Travel, 4hr minimum</li>
-            <!-- Add more details here -->
-        </ul>
+    <div class="service-grid">
+        <div id="dumpster-services" class="service">
+            <h3><i class="fas fa-dumpster"></i> Dumpster Services</h3>
+            <p>We provide dumpsters of various sizes for different types of waste, whether it be for residential or commercial projects.</p>
+            <table>
+                <thead>
+                <tr>
+                    <th>Size</th>
+                    <th>Price (Tons Included)</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr><td>40-Yard Dumpster</td><td>$900 (5 Tons)</td></tr>
+                <tr><td>30-Yard Dumpster</td><td>$750 (4 Tons)</td></tr>
+                <tr><td>25-Yard Dumpster</td><td>$700 (3 Tons)</td></tr>
+                <tr><td>20-Yard Dumpster</td><td>$650 (2.5 Tons)</td></tr>
+                </tbody>
+            </table>
+            <a href="#" class="cta-button">Get a Quote</a>
+        </div>
+        <div id="excavation-services" class="service">
+            <h3><i class="fas fa-tractor"></i> Excavation & Land Clearing</h3>
+            <p>Our experienced team offers excavation and land clearing services, perfect for any construction project.</p>
+            <table>
+                <thead>
+                <tr>
+                    <th>Equipment</th>
+                    <th>Weekly Rate</th>
+                    <th>Daily Rate</th>
+                    <th>Daily Rate with Operator</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr><td>Bobcat</td><td>$2500</td><td>$450</td><td>$900</td></tr>
+                <tr><td>Mini Excavator</td><td>$2500</td><td>$450</td><td>$900</td></tr>
+                </tbody>
+            </table>
+            <a href="#" class="cta-button">Learn More</a>
+        </div>
+        <div id="hauling-services" class="service">
+            <h3><i class="fas fa-truck-moving"></i> Dump Trucking & Hauling</h3>
+            <p>We offer dump trucking and hauling services for construction waste, residential cleanups, and more.</p>
+            <ul>
+                <li>$90/hr, Plus 1 Hr Travel, 4hr minimum</li>
+            </ul>
+            <a href="#" class="cta-button">Schedule Service</a>
+        </div>
     </div>
 </section>
 
-<!-- Footer -->
-<footer>
-    <p>Better Dumpsters Today © 2024. All Rights Reserved.</p>
-    <p>Contact us: <a href="tel:240-960-6005">240-960-6005</a></p>
-    <p>Follow us on <a href="#">Facebook</a>, <a href="#">Instagram</a></p>
-</footer>
-<script src="js/app.js"></script>
-</body>
-
-</html>
+<!-- Testimonials or FAQ Section -->
+<section id="testimonials-faq">
+    <h2>Client Testimonials & FAQs</h2>
+    <div class="testimonial-faq-grid">
+        <div class="testimonial">
+            <blockquote>
+                <p>"Exceptional service! The team was prompt, professional, and made our project run smoothly."</p>
+                <cite>- Jane
