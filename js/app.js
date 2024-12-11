@@ -1,15 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Navigation Menu Toggle
     const menuToggle = document.querySelector('.menu-toggle');
     const nav = document.querySelector('header nav');
 
-    menuToggle.addEventListener('click', () => {
-        nav.classList.toggle('open');
-        menuToggle.classList.toggle('open');
-    });
+    if (menuToggle && nav) {
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            menuToggle.classList.toggle('open');
+        });
+    }
 
     // Modal functionality
     const modal = document.querySelector('.modal');
-    const modalContent = document.querySelector('.modal-content');
     const closeModal = document.querySelector('.close');
 
     if (modal && closeModal) {
