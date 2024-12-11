@@ -6,149 +6,227 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services & Pricing - Better Dumpsters Today</title>
     <meta name="description" content="Explore our comprehensive services including dumpster rentals, excavation, and hauling at Better Dumpsters Today. Get pricing details here!">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="keywords" content="dumpster rental, excavation, land clearing, hauling, services, pricing">
+    <link rel="stylesheet" href="css/style_updated.css">
     <script src="https://kit.fontawesome.com/yourkitcode.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.css">
 </head>
 
 <body>
 <!-- Header with Enhanced Navigation -->
-<header>
+<header style="background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); padding: 20px;">
     <div class="logo">
-        <img src="img/dumpster-logo.jpg" alt="Better Dumpsters Today Logo for waste management services">
+        <img src="img/dumpster-logo.jpg" alt="Better Dumpsters Today Logo for waste management services" style="max-height: 60px; width: auto;">
     </div>
-    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-    <nav>
-        <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
-        <a href="services.html" class="nav-link">Services & Pricing</a>
-        <a href="contact.html" class="nav-link">Contact & Scheduling</a>
+    <button class="menu-toggle" aria-label="Toggle menu" style="background: none; border: none; color: white; font-size: 24px; cursor: pointer;">☰</button>
+    <nav style="display: flex; align-items: center;">
+        <a href="index.html" class="nav-link" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold; transition: color 0.3s;"><i class="fas fa-home"></i> Home</a>
+        <a href="services.html" class="nav-link" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold; transition: color 0.3s;">Services & Pricing</a>
+        <a href="contact.html" class="nav-link" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold; transition: color 0.3s;">Contact & Scheduling</a>
     </nav>
 </header>
 
+
 <!-- Services Section -->
-<section id="services">
-    <h2>Our Services & Pricing</h2>
-    <div class="service-grid">
-        <div id="dumpster-services" class="service">
-            <h3><i class="fas fa-dumpster"></i> Dumpster Services</h3>
-            <p>We provide dumpsters of various sizes for different types of waste, whether it be for residential or commercial projects.</p>
-            <div class="center-text">
-                <table>
+<section id="services" style="padding: 50px 20px; background-color: #f9f9f9; text-align: center;">
+    <h2 style="font-size: 2rem; color: var(--primary-color); margin-bottom: 40px;">Our Services & Pricing</h2>
+    <div class="service-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
+
+        <!-- Dumpster Services -->
+        <div id="dumpster-services" class="service" style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+            <h3 style="font-size: 1.5rem; color: var(--secondary-color); margin-bottom: 15px;">
+                <i class="fas fa-dumpster" style="color: var(--primary-color);"></i> Dumpster Services
+            </h3>
+            <p style="margin-bottom: 20px;">We provide dumpsters of various sizes for different types of waste, whether it be for residential or commercial projects.</p>
+            <div class="center-text" style="margin-bottom: 20px;">
+                <table style="width: 100%; border-collapse: collapse; margin: 0 auto;">
                     <thead>
-                    <tr>
-                        <th>Size</th>
-                        <th>Price (Tons Included)</th>
+                    <tr style="background-color: var(--primary-color); color: white;">
+                        <th style="padding: 10px;">Size</th>
+                        <th style="padding: 10px;">Price (Tons Included)</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <tr><td>40-Yard Dumpster</td><td>$900 (5 Tons)</td></tr>
-                    <tr><td>30-Yard Dumpster</td><td>$750 (4 Tons)</td></tr>
-                    <tr><td>25-Yard Dumpster</td><td>$700 (3 Tons)</td></tr>
-                    <tr><td>20-Yard Dumpster</td><td>$650 (2.5 Tons)</td></tr>
+                    <tr><td style="padding: 10px; border: 1px solid #ddd;">40-Yard Dumpster</td><td style="padding: 10px; border: 1px solid #ddd;">$900 (5 Tons)</td></tr>
+                    <tr><td style="padding: 10px; border: 1px solid #ddd;">30-Yard Dumpster</td><td style="padding: 10px; border: 1px solid #ddd;">$750 (4 Tons)</td></tr>
+                    <tr><td style="padding: 10px; border: 1px solid #ddd;">25-Yard Dumpster</td><td style="padding: 10px; border: 1px solid #ddd;">$700 (3 Tons)</td></tr>
+                    <tr><td style="padding: 10px; border: 1px solid #ddd;">20-Yard Dumpster</td><td style="padding: 10px; border: 1px solid #ddd;">$650 (2.5 Tons)</td></tr>
                     </tbody>
                 </table>
             </div>
-            <a href="#" class="cta-button">Get a Quote</a>
+            <a href="#" class="cta-button" style="padding: 12px 25px; background-color: var(--primary-color); color: white; text-decoration: none; border-radius: 4px; transition: background-color 0.3s;">Get a Quote</a>
         </div>
-        <div id="excavation-services" class="service">
-            <h3><i class="fas fa-tractor"></i> Excavation & Land Clearing</h3>
-            <p>Our experienced team offers excavation and land clearing services, perfect for any construction project.</p>
-            <div class="center-text">
-                <table>
+
+        <!-- Excavation Services -->
+        <div id="excavation-services" class="service" style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+            <h3 style="font-size: 1.5rem; color: var(--secondary-color); margin-bottom: 15px;">
+                <i class="fas fa-tractor" style="color: var(--primary-color);"></i> Excavation & Land Clearing
+            </h3>
+            <p style="margin-bottom: 20px;">Our experienced team offers excavation and land clearing services, perfect for any construction project.</p>
+            <div class="center-text" style="margin-bottom: 20px;">
+                <table style="width: 100%; border-collapse: collapse; margin: 0 auto;">
                     <thead>
-                    <tr>
-                        <th>Equipment</th>
-                        <th>Weekly Rate</th>
-                        <th>Daily Rate</th>
-                        <th>Daily Rate with Operator</th>
+                    <tr style="background-color: var(--primary-color); color: white;">
+                        <th style="padding: 10px;">Equipment</th>
+                        <th style="padding: 10px;">Weekly Rate</th>
+                        <th style="padding: 10px;">Daily Rate</th>
+                        <th style="padding: 10px;">Daily Rate with Operator</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <tr><td>Bobcat</td><td>$2500</td><td>$450</td><td>$900</td></tr>
-                    <tr><td>Mini Excavator</td><td>$2500</td><td>$450</td><td>$900</td></tr>
+                    <tr><td style="padding: 10px; border: 1px solid #ddd;">Bobcat</td><td style="padding: 10px; border: 1px solid #ddd;">$2500</td><td style="padding: 10px; border: 1px solid #ddd;">$450</td><td style="padding: 10px; border: 1px solid #ddd;">$900</td></tr>
+                    <tr><td style="padding: 10px; border: 1px solid #ddd;">Mini Excavator</td><td style="padding: 10px; border: 1px solid #ddd;">$2500</td><td style="padding: 10px; border: 1px solid #ddd;">$450</td><td style="padding: 10px; border: 1px solid #ddd;">$900</td></tr>
                     </tbody>
                 </table>
             </div>
-            <a href="#" class="cta-button">Learn More</a>
+            <a href="#" class="cta-button" style="padding: 12px 25px; background-color: var(--primary-color); color: white; text-decoration: none; border-radius: 4px; transition: background-color 0.3s;">Learn More</a>
         </div>
-        <div id="hauling-services" class="service">
-            <h3><i class="fas fa-truck-moving"></i> Dump Trucking & Hauling</h3>
-            <p>We offer dump trucking and hauling services for construction waste, residential cleanups, and more.</p>
-            <div class="center-text">
-                <table>
+
+        <!-- Dump Trucking & Hauling -->
+        <div id="hauling-services" class="service" style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+            <h3 style="font-size: 1.5rem; color: var(--secondary-color); margin-bottom: 15px;">
+                <i class="fas fa-truck-moving" style="color: var(--primary-color);"></i> Dump Trucking & Hauling
+            </h3>
+            <p style="margin-bottom: 20px;">We offer dump trucking and hauling services for construction waste, residential cleanups, and more.</p>
+            <div class="center-text" style="margin-bottom: 20px;">
+                <table style="width: 100%; border-collapse: collapse; margin: 0 auto;">
                     <thead>
-                    <tr>
-                        <th>Service</th>
-                        <th>Rate</th>
+                    <tr style="background-color: var(--primary-color); color: white;">
+                        <th style="padding: 10px;">Service</th>
+                        <th style="padding: 10px;">Rate</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <tr><td>Hourly Rate</td><td>$90/hr</td></tr>
-                    <tr><td>Travel Time</td><td>1 Hr Minimum</td></tr>
-                    <tr><td>Minimum Service Hours</td><td>4 Hours</td></tr>
+                    <tr><td style="padding: 10px; border: 1px solid #ddd;">Hourly Rate</td><td style="padding: 10px; border: 1px solid #ddd;">$90/hr</td></tr>
+                    <tr><td style="padding: 10px; border: 1px solid #ddd;">Travel Time</td><td style="padding: 10px; border: 1px solid #ddd;">1 Hr Minimum</td></tr>
+                    <tr><td style="padding: 10px; border: 1px solid #ddd;">Minimum Service Hours</td><td style="padding: 10px; border: 1px solid #ddd;">4 Hours</td></tr>
                     </tbody>
                 </table>
             </div>
-            <a href="#" class="cta-button">Schedule Service</a>
+            <a href="#" class="cta-button" style="padding: 12px 25px; background-color: var(--primary-color); color: white; text-decoration: none; border-radius: 4px; transition: background-color 0.3s;">Schedule Service</a>
         </div>
     </div>
 </section>
 
 <!-- Testimonials Section -->
-<section id="testimonials">
-    <h2>What Our Clients Say</h2>
-    <div class="testimonial-carousel swiper-container">
+<section id="testimonials" style="padding: 50px 20px; background-color: #f9f9f9; text-align: center;">
+    <h2 style="font-size: 2rem; color: var(--primary-color); margin-bottom: 30px;">What Our Clients Say</h2>
+    <div class="testimonial-carousel swiper-container" style="max-width: 800px; margin: 0 auto;">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <blockquote>
+            <div class="swiper-slide" style="padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                <blockquote style="font-style: italic; font-size: 1.2rem; color: #333; line-height: 1.5;">
                     <p>"Exceptional service! The team was prompt, professional, and made our project run smoothly."</p>
-                    <cite>- Jane</cite>
+                    <cite style="display: block; margin-top: 15px; font-size: 1rem; color: var(--secondary-color);">- Jane</cite>
                 </blockquote>
             </div>
-            <!-- Add more testimonials here -->
+            <div class="swiper-slide" style="padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                <blockquote style="font-style: italic; font-size: 1.2rem; color: #333; line-height: 1.5;">
+                    <p>"The dumpster rental process was seamless. Highly recommend for any residential or commercial projects!"</p>
+                    <cite style="display: block; margin-top: 15px; font-size: 1rem; color: var(--secondary-color);">- John</cite>
+                </blockquote>
+            </div>
+            <!-- Add more testimonials as needed -->
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination" style="margin-top: 15px;"></div>
     </div>
 </section>
 
+
+<!-- Swiper Initialization Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        new Swiper('.testimonial-carousel', {
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false, // Continue autoplay after interaction
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true, // Add pagination dots
+            },
+            slidesPerView: 1,
+            spaceBetween: 20,
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+            },
+        });
+    });
+</script>
+
+
 <!-- Enhanced Footer -->
-<footer>
-    <div class="footer-content">
-        <div class="footer-section">
-            <h3>Contact Us</h3>
-            <p><a href="tel:240-960-6005">240-960-6005</a></p>
-            <p><a href="mailto:info@betterdumpsters.com">info@betterdumpsters.com</a></p>
+<footer style="background-color: #333; color: white; padding: 40px 20px; text-align: center;">
+    <div class="footer-content" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; max-width: 1200px; margin: 0 auto;">
+        <!-- Contact Us Section -->
+        <div class="footer-section" style="flex: 1; min-width: 200px;">
+            <h3 style="font-size: 1.5rem; margin-bottom: 15px; color: var(--accent-color);">Contact Us</h3>
+            <p style="margin: 5px 0;"><a href="tel:240-960-6005" style="color: white; text-decoration: none; transition: color 0.3s;">240-960-6005</a></p>
+            <p style="margin: 5px 0;"><a href="mailto:info@betterdumpsters.com" style="color: white; text-decoration: none; transition: color 0.3s;">info@betterdumpsters.com</a></p>
         </div>
-        <div class="footer-section">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="blog.html">Blog</a></li>
+        <!-- Quick Links Section -->
+        <div class="footer-section" style="flex: 1; min-width: 200px;">
+            <h3 style="font-size: 1.5rem; margin-bottom: 15px; color: var(--accent-color);">Quick Links</h3>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="margin-bottom: 10px;"><a href="about.html" style="color: white; text-decoration: none; transition: color 0.3s;">About Us</a></li>
+                <li><a href="blog.html" style="color: white; text-decoration: none; transition: color 0.3s;">Blog</a></li>
             </ul>
         </div>
-        <div class="footer-section">
-            <h3>Follow Us</h3>
-            <p><a href="#" aria-label="Facebook">Facebook</a>, <a href="#" aria-label="Instagram">Instagram</a></p>
+        <!-- Follow Us Section -->
+        <div class="footer-section" style="flex: 1; min-width: 200px;">
+            <h3 style="font-size: 1.5rem; margin-bottom: 15px; color: var(--accent-color);">Follow Us</h3>
+            <p>
+                <a href="#" aria-label="Facebook" style="color: var(--accent-color); margin-right: 10px; text-decoration: none; font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram" style="color: var(--accent-color); text-decoration: none; font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+            </p>
         </div>
     </div>
-    <p class="copyright">Better Dumpsters Today © 2024. All Rights Reserved.</p>
+    <p style="margin-top: 30px; font-size: 0.9rem; color: #aaa;">Better Dumpsters Today © 2024. All Rights Reserved.</p>
 </footer>
+
 
 <!-- Scripts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.js" defer></script>
 <script src="js/app.js" defer></script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        // Initialize testimonial carousel
+        // Initialize testimonial carousel with enhanced options
         new Swiper('.testimonial-carousel', {
             loop: true,
             autoplay: {
-                delay: 5000,
+                delay: 5000, // 5-second delay between slides
+                disableOnInteraction: false, // Continue autoplay after user interaction
             },
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination', // Add pagination dots
+                clickable: true,
+            },
+            slidesPerView: 1,
+            spaceBetween: 20, // Space between slides
+            breakpoints: {
+                768: {
+                    slidesPerView: 2, // Show 2 slides on tablets
+                    spaceBetween: 30,
+                },
+                1024: {
+                    slidesPerView: 3, // Show 3 slides on desktops
+                    spaceBetween: 40,
+                },
             },
         });
     });
