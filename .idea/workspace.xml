@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d61e744d-754b-418a-9456-4478fa2b9470" name="Changes" comment="Update contact.html to improve accessibility: Enhanced form labels and added ARIA attributes to improve accessibility compliance for better-dumpsters-today.&#10;&#10;Update services.html and style.css for a more cohesive design: Updated services.html for better alignment across service sections and modified style.css to ensure uniform styling across all service pages in better-dumpsters-today.">
+    <list default="true" id="d61e744d-754b-418a-9456-4478fa2b9470" name="Changes" comment="Enhance app.js with improved functionality and animations&#10;&#10;- Add mobile menu toggle functionality&#10;- Implement smooth scroll for anchor links&#10;- Add intersection observer for service card animations">
       <change afterPath="$PROJECT_DIR$/../BETTER DUMPSTERS TODAY/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BlazorApp1/.idea/.idea.BlazorApp1/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BlazorApp1/.idea/.idea.BlazorApp1/.idea/vcs.xml" afterDir="false" />
@@ -289,19 +289,39 @@
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/working-with-modules-forked/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../code-sandbox/working-with-modules-forked/src/styles.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../dev-portfolio-wireframes/Tablet-Wireframe-Developer-Portfolio.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../epic-mix-playlist/.idea/.idea.epic-mix-playlist.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../epic-mix-playlist/.idea/.idea.epic-mix-playlist.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../epic-mix-playlist/.idea/.idea.epic-mix-playlist.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../epic-mix-playlist/.idea/.idea.epic-mix-playlist.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jubilee-austen/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jubilee-austen/.idea/.idea.jubilee-austen.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jubilee-austen/.idea/.idea.jubilee-austen.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jubilee-austen/.idea/.idea.jubilee-austen.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jubilee-austen/.idea/.idea.jubilee-austen.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jubilee-austen/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jubilee-austen/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../recipe-cards.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../reveal-a-random-image.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../subscription-calculator.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subscription-calculator/.idea/.idea.subscription-calculator.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subscription-calculator/.idea/.idea.subscription-calculator.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subscription-calculator/.idea/.idea.subscription-calculator.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../subscription-calculator/.idea/.idea.subscription-calculator.dir/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../super-sticky-notes/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../super-sticky-notes/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../super-sticky-notes/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../upcoming field trip registrations-03-main.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wgu/d197-version-control/retrospective/~$reenshots_and_comments_part_2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wgu/west-virginia-website-project/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../epic-mix-playlist" beforeDir="false" afterPath="$PROJECT_DIR$/../../epic-mix-playlist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jose-portfolio" beforeDir="false" afterPath="$PROJECT_DIR$/../../jose-portfolio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jubilee-austen" beforeDir="false" afterPath="$PROJECT_DIR$/../../jubilee-austen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../subscription-calculator" beforeDir="false" afterPath="$PROJECT_DIR$/../../subscription-calculator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../super-sticky-notes" beforeDir="false" afterPath="$PROJECT_DIR$/../../super-sticky-notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wgu/d197-version-control" beforeDir="false" afterPath="$PROJECT_DIR$/../../wgu/d197-version-control" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../wgu/west-virginia-website-project" beforeDir="false" afterPath="$PROJECT_DIR$/../../wgu/west-virginia-website-project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../wgu/west-virginia-website-project/charleston.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../wgu/west-virginia-website-project/charleston.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../wgu/west-virginia-website-project/huntington.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../wgu/west-virginia-website-project/huntington.html" afterDir="false" />
@@ -396,7 +416,10 @@
       <workItem from="1733084841827" duration="1649000" />
       <workItem from="1733086852229" duration="8689000" />
       <workItem from="1733167493274" duration="17129000" />
-      <workItem from="1733245215069" duration="14911000" />
+      <workItem from="1733245215069" duration="18634000" />
+      <workItem from="1733595676719" duration="11275000" />
+      <workItem from="1733938615510" duration="22000" />
+      <workItem from="1733938648469" duration="24743000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Update index.html: Added hero section, navigation links, and footer for enhanced layout&quot;">
       <option name="closed" value="true" />
@@ -638,7 +661,71 @@
       <option name="project" value="LOCAL" />
       <updated>1733267054017</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Update contact.html to include Google Map iframe and adjust map width to 100%">
+      <option name="closed" value="true" />
+      <created>1733276263194</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1733276263194</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Remove Swiper navigation arrows from index.html and update Swiper initialization script">
+      <option name="closed" value="true" />
+      <created>1733276306050</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1733276306050</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Refactor and optimize app.js&#10;&#10;- Improve code readability and structure&#10;- Optimize performance by reducing redundant operations&#10;- Add comments for better understanding&#10;- Fix bugs related to event handling">
+      <option name="closed" value="true" />
+      <created>1733932118025</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1733932118025</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Enhance color scheme and improve layout in index.html&#10;&#10;- Update header background to gradient&#10;- Enhance hero section with vibrant colors and text shadows&#10;- Improve service section layout and styling&#10;- Add Swiper carousel for testimonials&#10;- Update footer with new color scheme and layout">
+      <option name="closed" value="true" />
+      <created>1733932143603</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1733932143603</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Update services.html with enhanced layout and styling&#10;&#10;- Improve service section layout with better spacing and alignment&#10;- Add new images for services&#10;- Update color scheme to match the new design&#10;- Enhance typography for better readability">
+      <option name="closed" value="true" />
+      <created>1733932487201</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1733932487201</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Enhance color scheme and improve layout in index.html&#10;&#10;- Update header background to gradient&#10;- Enhance hero section with vibrant colors and text shadows&#10;- Improve service section layout and styling&#10;- Add Swiper carousel for testimonials&#10;- Update footer with new color scheme and layout">
+      <option name="closed" value="true" />
+      <created>1733932545673</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1733932545673</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Enhance index.html with improved layout and styling&#10;&#10;- Update header with new logo and navigation styles&#10;- Add hero section with background image and call-to-action buttons&#10;- Include services overview with images and descriptions&#10;- Implement testimonials carousel using Swiper&#10;- Update footer with contact information and quick links">
+      <option name="closed" value="true" />
+      <created>1734108175546</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1734108175546</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Enhance app.js with improved functionality and animations&#10;&#10;- Add mobile menu toggle functionality&#10;- Implement smooth scroll for anchor links&#10;- Add intersection observer for service card animations">
+      <option name="closed" value="true" />
+      <created>1734108221660</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1734108221660</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,13 +746,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Updated index.html to include Bitmoji images in the hero, about, and skills sections, enhancing personal branding and visual appeal." />
-    <MESSAGE value="Added styling for Bitmoji images in hero, about, and skills sections to improve alignment, sizing, and visual consistency across the website." />
-    <MESSAGE value="Added Bitmoji images for hero, about, and skills sections to enhance personal branding and website interactivity." />
-    <MESSAGE value="Update HTML files for Better Dumpsters Today&#10;&#10;- Updated 404, contact, index, and services pages for Better Dumpsters Today." />
-    <MESSAGE value="Misc updates" />
-    <MESSAGE value="# Commit the new file" />
-    <MESSAGE value="Add .idea directories to .gitignore: Updated .gitignore to exclude .idea directories generated by IDEs to prevent committing local project settings.&#10;&#10;Add environment-specific and IDE settings to .gitignore: Enhanced .gitignore file to prevent unnecessary environment-specific and IDE-generated files (e.g., .idea) from being tracked in version control." />
     <MESSAGE value=" Modified AssemblyAttributes.cs to align with the .NET 6.0 framework for improved compatibility and debugging in the testing environment." />
     <MESSAGE value="Updated 404.html to provide a more user-friendly error message and navigation suggestions, enhancing the user experience when encountering a broken link." />
     <MESSAGE value="- **Refactor App.js components for modularity**: Updated several instances of `App.js` across multiple feature branches to improve modularity, readability, and reusability of components.&#10;- **Add new features and optimize existing logic in App.js**: Implemented new UI components and optimized logic for better performance and maintainability.&#10;- **Enhance user interaction in App.js**: Added interactive features to `App.js`, such as form validation, improved modal functionality, and enhanced animations for a more engaging user experience." />
@@ -684,7 +764,14 @@
     <MESSAGE value="Update app.js with improved interactivity: Enhanced the functionality in app.js for better-dumpsters-today by adding interactive elements for dynamic user experience, such as form validation and toggle effects." />
     <MESSAGE value="Update contact.html for enhanced accessibility: Updated the contact page to improve form accessibility and ensure better user experience for visitors of better-dumpsters-today." />
     <MESSAGE value="Update contact.html to improve accessibility: Enhanced form labels and added ARIA attributes to improve accessibility compliance for better-dumpsters-today.&#10;&#10;Update services.html and style.css for a more cohesive design: Updated services.html for better alignment across service sections and modified style.css to ensure uniform styling across all service pages in better-dumpsters-today." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update contact.html to improve accessibility: Enhanced form labels and added ARIA attributes to improve accessibility compliance for better-dumpsters-today.&#10;&#10;Update services.html and style.css for a more cohesive design: Updated services.html for better alignment across service sections and modified style.css to ensure uniform styling across all service pages in better-dumpsters-today." />
+    <MESSAGE value="Update contact.html to include Google Map iframe and adjust map width to 100%" />
+    <MESSAGE value="Remove Swiper navigation arrows from index.html and update Swiper initialization script" />
+    <MESSAGE value="Refactor and optimize app.js&#10;&#10;- Improve code readability and structure&#10;- Optimize performance by reducing redundant operations&#10;- Add comments for better understanding&#10;- Fix bugs related to event handling" />
+    <MESSAGE value="Update services.html with enhanced layout and styling&#10;&#10;- Improve service section layout with better spacing and alignment&#10;- Add new images for services&#10;- Update color scheme to match the new design&#10;- Enhance typography for better readability" />
+    <MESSAGE value="Enhance color scheme and improve layout in index.html&#10;&#10;- Update header background to gradient&#10;- Enhance hero section with vibrant colors and text shadows&#10;- Improve service section layout and styling&#10;- Add Swiper carousel for testimonials&#10;- Update footer with new color scheme and layout" />
+    <MESSAGE value="Enhance index.html with improved layout and styling&#10;&#10;- Update header with new logo and navigation styles&#10;- Add hero section with background image and call-to-action buttons&#10;- Include services overview with images and descriptions&#10;- Implement testimonials carousel using Swiper&#10;- Update footer with contact information and quick links" />
+    <MESSAGE value="Enhance app.js with improved functionality and animations&#10;&#10;- Add mobile menu toggle functionality&#10;- Implement smooth scroll for anchor links&#10;- Add intersection observer for service card animations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhance app.js with improved functionality and animations&#10;&#10;- Add mobile menu toggle functionality&#10;- Implement smooth scroll for anchor links&#10;- Add intersection observer for service card animations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

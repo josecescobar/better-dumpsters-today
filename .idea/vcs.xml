@@ -4,8 +4,27 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../105-coding_resources" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../203-accelerate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ProfitMarginCalculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../RealEliteContractingWebsite1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../epic-mix-playlist" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../desktop-tutorial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../display-pet-objects" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../epic-mix-playlist" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../factory-function-pattern-for-pets" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../fetch-random-image-array" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../github-repo-gallery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../guess-the-word-main" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../jose-portfolio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../jubilee-austen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../my-first-repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../potluck-guest-list" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../recipe-cards" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../reveal-a-random-image" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../rogue-pickings" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../subscription-calculator" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../super-sticky-notes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../wgu/d197-version-control" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../wgu/west-virginia-website-project" vcs="Git" />
   </component>
 </project>
