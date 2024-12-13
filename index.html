@@ -15,23 +15,29 @@
 <body>
 
 <!-- Header with Enhanced Navigation -->
-<header style="background: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 10px 20px;">
+<header style="background: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 10px 20px; display: flex; align-items: center; justify-content: space-between;">
   <div class="logo">
     <img src="img/logo-clear-2.jpg" alt="Better Dumpsters Today Logo for waste management services" style="max-height: 120px; width: auto; padding: 5px;">
   </div>
-  <button class="menu-toggle" aria-label="Toggle menu" style="background: none; border: none; color: var(--primary-color); font-size: 24px; cursor: pointer;">☰</button>
-  <nav style="display: flex; align-items: center;">
-    <a href="index.html" class="nav-link" style="color: var(--primary-color); margin: 0 15px; text-decoration: none; font-weight: bold; transition: color 0.3s;"><i class="fas fa-home"></i> Home</a>
-    <a href="services.html" class="nav-link" style="color: var(--primary-color); margin: 0 15px; text-decoration: none; font-weight: bold; transition: color 0.3s;">Services & Pricing</a>
-    <a href="contact.html" class="nav-link" style="color: var(--primary-color); margin: 0 15px; text-decoration: none; font-weight: bold; transition: color 0.3s;">Contact & Scheduling</a>
-  </nav>
+  <div class="nav-container" style="text-align: center; flex-grow: 1;"> <!-- Wrapper for centering the nav -->
+    <nav style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+      <a href="index.html" class="nav-link" style="color: var(--primary-color); text-decoration: none; font-weight: bold; transition: color 0.3s;"><i class="fas fa-home"></i> Home</a>
+      <a href="services.html" class="nav-link" style="color: var(--primary-color); text-decoration: none; font-weight: bold; transition: color 0.3s;">Services & Pricing</a>
+      <a href="contact.html" class="nav-link" style="color: var(--primary-color); text-decoration: none; font-weight: bold; transition: color 0.3s;">Contact & Scheduling</a>
+    </nav>
+  </div>
+  <div class="call-now" style="text-align: right;">
+    <p style="margin: 0; font-size: 1.2rem; font-weight: bold; color: var(--text-color);">Call Now For An Estimate!</p>
+    <a href="tel:2409606005" style="display: inline-block; padding: 10px 20px; font-size: 1rem; font-weight: bold; color: white; background: linear-gradient(to bottom, #4CAF50, #008CBA); text-decoration: none; border-radius: 5px; margin-top: 5px;">
+      <i class="fas fa-phone-alt"></i> 240-960-6005
+    </a>
+  </div>
 </header>
-
-
 
 <!-- Hero Section with Enhanced Design -->
 <section id="home" class="hero" style="background-image: url('images/hero-bg.jpg'); background-size: cover; background-position: center; padding: 100px 20px; text-align: center; color: white;">
   <div class="hero-content" style="max-width: 800px; margin: 0 auto;">
+    <img src="img/logo-white1.jpg" alt="Better Dumpsters Today Logo" style="max-width: 700px; width: 100%; margin-bottom: 20px;">
     <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 20px; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">Your Trusted Partner for Dumpster Rentals & Hauling Services</h1>
     <p style="font-size: 1.2rem; margin-bottom: 30px; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);">Whether residential or commercial, we handle all your waste management needs.</p>
     <button onclick="document.getElementById('quoteForm').style.display='block'" class="cta-button" style="background-color: var(--secondary-color); color: white; padding: 15px 30px; border: none; font-size: 1rem; cursor: pointer; transition: background-color 0.3s;">Get a Free Quote</button>
