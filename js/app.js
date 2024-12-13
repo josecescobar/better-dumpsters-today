@@ -1,28 +1,48 @@
+// Wait for the DOM to be fully loaded before executing scripts
 document.addEventListener('DOMContentLoaded', () => {
-    // Navigation Menu Toggle
+    // Mobile Menu Toggle
     const menuToggle = document.querySelector('.menu-toggle');
-    const nav = document.querySelector('header nav');
+    const mainMenu = document.querySelector('#main-menu');
 
-    if (menuToggle && nav) {
-        menuToggle.addEventListener('click', () => {
-            nav.classList.toggle('open');
-            menuToggle.classList.toggle('open');
-        });
-    }
+    menuToggle.addEventListener('click', () => {
+        const expanded = menuToggle.getAttribute('aria-expanded') === 'true' || false;
+        menuToggle.setAttribute('aria-expanded', !expanded);
+        mainMenu.classList.toggle('open');
+    });
 
-    // Modal functionality
-    const modal = document.querySelector('.modal');
-    const closeModal = document.querySelector('.close');
+    // Smooth Scroll to Sections
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
 
-    if (modal && closeModal) {
-        closeModal.addEventListener('click', () => {
-            modal.style.display = 'none';
-        });
-
-        window.addEventListener('click', (event) => {
-            if (event.target === modal) {
-                modal.style.display = 'none';
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
             }
         });
-    }
+    });
+
+    // Service Card Animation
+    const serviceCards = document.querySelectorAll('.service-card');
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate-fade-in');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    serviceCards.forEach(card => {
+        observer.observe(card);
+    });
 });
