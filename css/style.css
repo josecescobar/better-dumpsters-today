@@ -19,78 +19,104 @@ body {
 
 /* Header Section */
 header {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 1000;
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
 }
 
+/* Logo styling */
 header .logo img {
-    max-height: 60px;
+    max-height: 120px;
     width: auto;
+    padding: 5px;
 }
 
-.menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 24px;
-    cursor: pointer;
+/* Navigation styling */
+.nav-container {
+    flex-grow: 1;
+    text-align: center;
 }
 
 header nav {
     display: flex;
+    justify-content: center;
     align-items: center;
-    transition: transform 0.3s;
+    gap: 30px; /* Space between nav items */
 }
 
-header nav.open {
-    display: flex;
-}
-
-header nav a {
-    color: #fff;
-    margin: 0 15px;
+.nav-link {
+    color: var(--primary-color);
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
+    font-weight: 600; /* Semi-bold weight for better readability */
+    font-size: 1.1rem; /* Slightly larger text for emphasis */
+    transition: color 0.3s, transform 0.1s; /* Smooth transition for hover effects */
 }
 
-header nav a:hover {
+.nav-link:hover {
     color: var(--accent-color);
+    transform: translateY(-2px); /* Slight lift effect on hover */
 }
 
-/* Mobile Styles */
+/* Call Now Section */
+.call-now {
+    text-align: right;
+}
+
+.call-now p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.call-now a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #4CAF50, #008CBA); /* Gradient from green to blue */
+    text-decoration: none;
+    border-radius: 50px; /* Rounded corners for modern look */
+    margin-top: 5px;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.call-now a:hover {
+    background: linear-gradient(to right, #008CBA, #4CAF50); /* Reverse gradient on hover */
+    transform: scale(1.05) translateY(-3px); /* Scale up and lift */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+/* Mobile Adjustments */
 @media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack elements vertically on mobile */
+        padding: 10px;
+    }
+
+    .logo, .nav-container, .call-now {
+        width: 100%; /* Full width for each section */
+    }
+
     header nav {
-        display: none;
         flex-direction: column;
-        width: 100%;
-        background-color: var(--primary-color);
-        position: absolute;
-        top: 60px;
-        left: 0;
-        z-index: 1000;
+        padding-bottom: 10px;
     }
 
-    header nav.open {
-        display: flex;
+    .nav-link {
+        margin: 5px 0;
     }
 
-    .menu-toggle {
-        display: block;
-    }
-
-    header nav a {
-        margin: 10px 0;
-        text-align: center;
-        color: white;
+    .call-now {
+        text-align: center; /* Center text on mobile */
     }
 }
 
@@ -104,8 +130,17 @@ header nav a:hover {
 }
 
 .hero-content {
-    max-width: 800px;
+    max-width: 1000px; /* Increased width to allow larger logo */
     margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero img {
+    max-width: none; /* Remove width limitation */
+    width: 00px; /* Set explicit width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px;
 }
 
 .cta-button {
@@ -119,7 +154,9 @@ header nav a:hover {
 }
 
 .cta-button:hover {
-    background-color: #002266;
+    background-color: var(--accent-color);
+    color: #000; /* Text color for contrast */
+    transform: scale(1.05); /* Subtle zoom effect */
 }
 
 /* Footer */
